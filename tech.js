@@ -11,7 +11,11 @@ if(age>=18){
 
 let a =document.querySelector(".divani");
 let v =document.getElementById("hit");
+let elm=document.createElement('h2');
 v.addEventListener('click',function(){
-         a.innerHTML="thanku....."
+         a.innerHTML="wait";
+         a.appendChild(elm);
+         elm.textContent="processing..."
+        
          
 });
