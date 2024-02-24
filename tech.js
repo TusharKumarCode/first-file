@@ -24,3 +24,16 @@ v.addEventListener('click',function(){
         
                
 });
+
+let ev=document.getElementById("bgcl");
+let el=document.querySelector("#scrollthree");
+// let bh=document.createElement("div");
+let show=document.getElementById("fontcng");
+let visb=document.getElementById("seet");
+ev.addEventListener('click',function(){
+        //  el.innerHTML="";
+        //  el.appendChild(bh);
+        el.setAttribute("class","bg-dark");
+        show.setAttribute("class","text-light");
+        visb.setAttribute("class","text-light",);      
+});
