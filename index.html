@@ -38,7 +38,7 @@
                  
             }
 
-            .click{
+            /* .click{
                 height:35px;
                 width:120px;
                 border:none;
@@ -48,7 +48,7 @@
                 color:aliceblue;
                 margin-left:280px;
                 
-            }
+            } */
 
             .navbar-brand{
                    font-size:50px;
@@ -67,11 +67,11 @@
             }
 
             @media (max-width:1320px){
-                   .click{
+                   /* .click{
                        
                        margin-left:5px;
                       
-                   }
+                   } */
             }
 
             .collapse.navbar-collapse{
@@ -260,7 +260,7 @@
             }
 
             .mainanim{
-                height: 300px;
+                height: 500px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -271,7 +271,7 @@
 
             .divani{
                 width:400px;
-                height:200px;
+                height:300px;
                 background-color: cornflowerblue;
                 text-align: center;
                 animation-name: colormix;
@@ -296,17 +296,17 @@
             }
 
             @keyframes colormix{
-                  0% {background-color: cornflowerblue; border-radius: 0px;}
-                  10% {background-color: violet; border-radius: 10px;}
-                  20% {background-color: cyan; border-radius: 0px;}
-                  30% {background-color: crimson; border-radius: 20px;}
-                  40% {background-color: darkviolet; border-radius: 30px;}
-                  50% {background-color: cornflowerblue; border-radius: 40px;}
-                  60% {background-color:lightgreen; border-radius: 50px;}
-                  70% {background-color: cyan; border-radius: 40px;}
-                  80% {background-color: coral; border-radius: 30px;}
-                  90% {background-color:darkorange; border-radius: 20px;}
-                  100% {background-color:darkblue; border-radius: 10px;}
+                  0% {background-color: cornflowerblue;}
+                  10% {background-color: violet;}
+                  20% {background-color: cyan;}
+                  30% {background-color: crimson;}
+                  40% {background-color: darkviolet;}
+                  50% {background-color: cornflowerblue;}
+                  60% {background-color:lightgreen;}
+                  70% {background-color: cyan;}
+                  80% {background-color: coral;}
+                  90% {background-color:darkorange;}
+                  100% {background-color:darkblue;}
             }
 
             .container-fluid.tp{
@@ -387,10 +387,10 @@
                         <a class="nav-link" href="#scrollthree">Location</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">contact</a>
+                        <a class="nav-link" href="#scrollfour">contact</a>
                       </li>
                     </ul>
-                    <button class="click">order now</button>
+                    <button class="btn btn-outline-primary btn-sm text-capitalize fs-5 fw-bold rounded-pill" type="button">order now</button>
                   </div>
               </nav>
                  
@@ -532,11 +532,11 @@
             </div>
       </section>
 
-      <div class="mainanim">
+      <div class="mainanim" id="scrollfour">
             <div class="divani">
                  <h1>animation</h1>
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, consequatur? Beatae aspernatur omnis error. Cumque repudiandae quidem odit dolores veniam.</p>
-                 <button class="btn btn-outline-secondary btn-lg" type="button" id="hit">
+                 <button class="btn btn-outline-secondary btn-lg rounded-pill text-uppercase fw-bold" type="button" id="hit">
                         moreinfo
                  </button>
             </div> 

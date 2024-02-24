@@ -11,11 +11,16 @@ if(age>=18){
 
 let a =document.querySelector(".divani");
 let v =document.getElementById("hit");
-let elm=document.createElement('h2');
+let elm=document.createElement('p');
+let box=document.createElement('div');
+let b=document.querySelector("#scrollfour");
 v.addEventListener('click',function(){
-         a.innerHTML="wait";
+         a.innerHTML="<h2>contact</h2>";
          a.appendChild(elm);
-         elm.textContent="processing..."
+         b.appendChild(box);
+         box.style.backgroundColor="white"
+         elm.textContent="phone number-4569782135"
+         elm.style.color="green"
         
-         
+               
 });
