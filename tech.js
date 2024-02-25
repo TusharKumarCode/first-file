@@ -37,3 +37,11 @@ ev.addEventListener('click',function(){
         show.setAttribute("class","text-light");
         visb.setAttribute("class","text-light",);      
 });
+
+let btn=document.getElementById("bgch");
+// let ex=document.querySelector("#scrollthree");
+btn.addEventListener("click",function(){
+       el.removeAttribute("class");
+       show.removeAttribute("class");
+       visb.removeAttribute("class");
+});
