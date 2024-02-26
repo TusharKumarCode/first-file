@@ -45,3 +45,16 @@ btn.addEventListener("click",function(){
        show.removeAttribute("class");
        visb.removeAttribute("class");
 });
+
+let stat=document.querySelector('#scrollone');
+let td=document.querySelector("#bg");
+let val=0;
+td.addEventListener("click",function(){
+         if(val==0){
+            stat.setAttribute("class","bg-dark");
+            val=1;
+         }else{
+            stat.setAttribute("class","bg-info");
+            val=0;
+         }  
+});
