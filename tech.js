@@ -51,10 +51,10 @@ let td=document.querySelector("#bg");
 let val=0;
 td.addEventListener("click",function(){
          if(val==0){
-            stat.setAttribute("class","bg-dark");
+            stat.style.backgroundColor="black";
             val=1;
          }else{
-            stat.setAttribute("class","bg-info");
+            stat.style.backgroundColor="lightpink";
             val=0;
          }  
 });
