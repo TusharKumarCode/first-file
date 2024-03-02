@@ -1,3 +1,32 @@
 #scrollone{
     background-color:lightpink;
 }
+
+#tx1{
+    font-size: 100px;
+    color: silver;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#tx2{
+    font-size: 30px;
+    color: silver;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+@media (max-width:800px){
+      #tx1{
+         font-size: 50px;
+         margin-left: 50px;
+      }
+
+      #tx2{
+         font-size: 20px;
+         padding-left: 50px;
+      }
+}
+
+.col-md-8{
+      margin-top: 80px;
+}
