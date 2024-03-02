@@ -58,3 +58,17 @@ td.addEventListener("click",function(){
             val=0;
          }  
 });
+
+let pack=document.querySelector("#trg");
+let hebo=document.querySelector("#oijh");
+let store=document.createElement("p");
+pack.addEventListener("mouseover",function(){
+           hebo.innerHTML="";
+           store.textContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci amet optio ducimus maxime ab animi eum commodi provident culpa atque ad unde cumque ratione sapiente vero, ipsa mollitia pariatur repellat explicabo. Possimus vel laboriosam, est temporibus fugit debitis architecto assumenda esse odio rem nesciunt libero tenetur? Beatae in nemo et labore, nobis voluptas, dignissimos fugiat mollitia quia natus, velit laudantium! Temporibus distinctio illum ipsam dignissimos quibusdam! Error atque esse iste minima id itaque, hic eligendi cumque doloremque voluptatibus distinctio ratione explicabo rerum molestias nemo optio blanditiis similique dignissimos dolorum magnam vero nulla? Voluptatibus, quaerat culpa? Sint non quia dolorem temporibus, impedit esse, fugit magnam excepturi quae illum enim id? Illum, exercitationem eligendi quae eveniet autem sunt assumenda illo ipsa similique atque dignissimos, numquam unde vel reiciendis fugit saepe totam laboriosam dolorum nesciunt cumque soluta? Provident accusamus modi, magnam totam, quia asperiores tempora minima dolore delectus expedita ad non deleniti autem ducimus nostrum incidunt vitae minus, numquam blanditiis dolorum libero pariatur nihil! Officia, beatae deserunt eos assumenda non iusto placeat.";
+           hebo.appendChild(store);
+           hebo.style.backgroundColor="darkturquoise";
+           store.style.fontSize="15px";
+           store.style.textTransform="uppercase";
+           store.style.color="white";
+           hebo.style.height="auto";
+});
