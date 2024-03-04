@@ -40,7 +40,18 @@ btn.addEventListener("click",function(){
 
 let red=document.querySelector("#read");
 let cotent=document.querySelector("#inht");
+let store=document.getElementById("chak");
+let vans=document.getElementById("more");
+let word=document.createElement("p");
 red.addEventListener("mouseover",function(){
-          cotent.innerHTML="fjierfiouefhjiuh";         
+          cotent.innerHTML="";         
 });
+
+store.addEventListener("click",function(){
+         vans.innerHTML="";
+         vans.appendChild(word)
+         word.textContent="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptas, mollitia aut, autem omnis dolor molestiae repellat consequuntur harum sunt error dolore optio corrupti veniam! Alias, ea ad eligendi temporibus porro consectetur excepturi nostrum architecto voluptatibus est? Accusantium quaerat beatae minima vero enim, exercitationem cum quo veritatis nam asperiores ut maxime nisi aliquam tempore ad, voluptatibus ea iure dolor nostrum nobis quia veniam, expedita rem itaque? Voluptatum, fugit quasi doloribus reiciendis molestias laborum vero nesciunt. In aliquid molestias vel odit architecto magni harum aperiam similique rem, velit perspiciatis necessitatibus iure corrupti et nobis dignissimos fuga eos eius commodi, ipsam beatae minima iste esse? Sequi quas iure accusantium illum, sed eius doloribus voluptas tenetur enim sapiente tempora soluta fugiat. Id molestiae obcaecati eaque ullam. Repudiandae ea, consectetur ipsum enim modi ullam itaque maiores. Quibusdam eaque culpa tenetur, necessitatibus quis consequuntur nostrum officiis facere nemo debitis. Atque eos excepturi ipsa vel similique, repellat sapiente, tempora impedit expedita molestias at officiis exercitationem eveniet tempore praesentium assumenda ducimus eum corporis! Laborum quidem, quaerat consectetur earum totam officiis? Quod, quia libero. Architecto eum fuga qui, facere iste rem excepturi officiis eaque tenetur eveniet possimus natus est quis tempora asperiores consequatur! Totam iusto voluptatem quis delectus?"
+         word.setAttribute("class","text-2xl text-white capitalize")
+         vans.setAttribute("class","columns-1 bg-teal-500")
+})
 
