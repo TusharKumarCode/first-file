@@ -54,5 +54,14 @@ store.addEventListener("click",function(){
          word.setAttribute("class","text-2xl text-white capitalize")
          cotent.setAttribute("class","h-auto bg-teal-500")
          vans.setAttribute("class","columns-1")
-})
+});
+
+let jam=document.querySelector("#fix");
+window.addEventListener("scroll",function(){
+           if(window.scrollY>0){
+                 jam.setAttribute("class","postn");
+           }else{
+               jam.setAttribute("class","bg-white w-3/4 h-16 ml-40 mt-24 rounded-xl")
+           }
+});
 
