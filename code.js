@@ -58,10 +58,12 @@ store.addEventListener("click",function(){
 
 let jam=document.querySelector("#fix");
 window.addEventListener("scroll",function(){
-           if(window.scrollY>0){
+           if(window.scrollY>250){
                  jam.setAttribute("class","postn");
-           }else{
+           }else if(window.scrollY<250){
                jam.setAttribute("class","bg-white w-3/4 h-16 ml-40 mt-24 rounded-xl")
            }
 });
+
+
 

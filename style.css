@@ -28,4 +28,7 @@
    left:0;
    width: 100%;
    background-color: aliceblue;
+   height:14%;
+   text-transform: uppercase;
+   color:steelblue;
 }
