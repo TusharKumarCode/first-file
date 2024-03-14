@@ -65,5 +65,13 @@ window.addEventListener("scroll",function(){
            }
 });
 
+let vis=document.querySelector("#hovr");
+let sp=document.createElement("p");
+vis.addEventListener("mouseover",function(){
+           document.body.appendChild(sp)
+           sp.textContent="click for more";
+           sp.style.marginTop="-40px"
+});
+
 
 
