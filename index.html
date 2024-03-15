@@ -154,7 +154,6 @@
                 border-radius:5px;
             }
             .col-sm-4{
-                /* border:1px solid white; */
                 width: auto;
             } 
             
@@ -174,9 +173,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                animation-name: change;
-                animation-duration:3s;
-                animation-iteration-count: infinite;
+                background-color:deeppink;
             }
 
             .divani{
@@ -187,22 +184,12 @@
                 animation-name: colormix;
                 animation-duration:2s;
                 animation-iteration-count:infinite;
+                transition: all 2s ease-in-out;
+                
             }
-
-            @keyframes change{
-                 0%{
-                   background-color: orchid;
-
-                 }
-                 50%{
-                  background-color: slateblue;
-                 }
-                 75%{
-                   background-color: dodgerblue;
-                 }
-                 100%{
-                    background-color: firebrick;
-                 }
+            .divani:hover{
+              transform: rotate(360deg);
+              cursor: pointer;
             }
 
             @keyframes colormix{
@@ -219,53 +206,8 @@
                   100% {background-color:darkblue;}
             }
 
-            .container-fluid.tp{
-                      animation-name: colormix;
-                      animation-duration: 10s;
-                      animation-iteration-count: infinite;
-                      /* background-color: cornflowerblue; */
-            }
-
-            @keyframes fontsize{
-                    0%{
-                      font-size: 10px;
-                    }
-                    10%{
-                      font-size: 15px;
-                    }
-                    20%{
-                      font-size: 20px;
-                    }
-                    30%{
-                       font-size:25px;
-                    }
-                    40%{
-                      font-size: 30px;
-                    }
-                    50%{
-                      font-size: 35px;
-                    }
-                    60%{
-                      font-size: 30px;
-                    }
-                    70%{
-                      font-size: 25px;
-                    }
-                    80%{
-                      font-size: 20px;
-                    }
-                    90%{
-                      font-size: 15px;
-                    }
-                    100%{
-                      font-size: 10px;
-                    }
-            }
-
-            .divani h1{
-                 animation-name: fontsize;
-                 animation-duration: 3s;
-                 animation-iteration-count: infinite;
+            .container-fluid.tp{     
+                 background-color:palevioletred;
             }
 
             html,body{
@@ -414,10 +356,10 @@
                      </div>
                      
                  </div>
+                
            </div>
-
-
-      <div class="container-fluid bg-light" id="scrollthree">
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d87093" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,229.3C384,235,480,277,576,288C672,299,768,277,864,250.7C960,224,1056,192,1152,160C1248,128,1344,96,1392,80L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <div class="container-fluid" id="scrollthree">
             <div class="row">
                   <div class="col-md-6">
                       <p class="mt-4 mb-4" id="seet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fugit corrupti molestias! Alias nulla itaque aliquid magnam porro distinctio quo. Alias expedita, pariatur a voluptas numquam laboriosam tempora obcaecati quasi?</p>
@@ -429,17 +371,20 @@
                   </div>
             </div>
       </div>
-
+     
       <div class="mainanim" id="scrollfour">
-            <div class="divani">
-                 <h1>animation</h1>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, consequatur? Beatae aspernatur omnis error. Cumque repudiandae quidem odit dolores veniam.</p>
+            <div class="divani rounded-5">
+                 <h1 class="fs-1 fw-bold text-uppercase text-light mt-3">animation</h1>
+                 <p class="fs-5 text-capitalize text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, consequatur? Beatae aspernatur omnis error. Cumque repudiandae quidem odit dolores veniam.</p>
                  <button class="btn btn-outline-secondary btn-lg rounded-pill text-uppercase fw-bold" type="button" id="hit">
                         moreinfo
                  </button>
             </div> 
       </div>
-  
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff1493" fill-opacity="1" d="M0,0L48,37.3C96,75,192,149,288,160C384,171,480,117,576,90.7C672,64,768,64,864,101.3C960,139,1056,213,1152,218.7C1248,224,1344,160,1392,128L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+         <div class="container-fluid d-flex justify-content-center align-items-center mb-5">
+               <h1 class="fs-1 fw-bold text-capitalize text-decoration-underline">thanks for visit</h1>
+         </div>
 <div class="container-fluid bg-dark">
     <div class="row">
          <div class="col-4 mx-4 my-4">
