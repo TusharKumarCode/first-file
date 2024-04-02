@@ -82,7 +82,7 @@ ster.addEventListener("click",function(){
           stre.setAttribute("class","absolute top-20 left-20 w-5/6 bg-sky-300 text-center")
           val=1;
        }else{
-        stre.setAttribute("class","md:flex justify-evenly items-center md:w-1/2 content-center absolute top-16 left-full w-full md:static text-center")
+        stre.setAttribute("class","md:flex justify-evenly items-center md:w-1/2 content-center absolute top-16 end-full  md:static text-center")
         val=0;
        }
        
