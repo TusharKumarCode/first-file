@@ -22,7 +22,7 @@
     color: aliceblue;
 }
 
-.postn{
+/* .postn{
    position: fixed;
    top:0;
    left:0;
@@ -31,8 +31,14 @@
    height:14%;
    text-transform: uppercase;
    color:steelblue;
-}
+} */
 
-.grid.grid-cols-8.gap-2{
-       background-color:cyan;
+@media (max-width:768px){
+     html,body{
+          height: 100%;
+          width: 100%;
+          padding: 0px;
+          margin: 0px;
+          overflow-x: hidden;
+     }
 }

@@ -59,9 +59,9 @@ store.addEventListener("click",function(){
 let jam=document.querySelector("#fix");
 window.addEventListener("scroll",function(){
            if(window.scrollY>250){
-                 jam.setAttribute("class","postn");
+                 jam.setAttribute("class","fixed bg-green-300 top-0 w-full h-20 md:fixed");
            }else if(window.scrollY<250){
-               jam.setAttribute("class","bg-white w-3/4 h-16 ml-40 mt-24 rounded-xl")
+               jam.setAttribute("class","bg-white w-68 md:w-3/4 h-16 md:ml-40 md:mt-24 rounded-xl mx-2 mt-40");
            }
 });
 
@@ -72,6 +72,22 @@ vis.addEventListener("mouseover",function(){
            sp.textContent="click for more";
            sp.style.marginTop="-40px"
 });
+
+let ster=document.getElementById("hembg");
+let stre=document.querySelector("#visb");
+let val=0;
+
+ster.addEventListener("click",function(){
+       if(val==0){
+          stre.setAttribute("class","absolute top-20 left-20 w-5/6 bg-sky-300 text-center")
+          val=1;
+       }else{
+        stre.setAttribute("class","md:flex justify-evenly items-center md:w-1/2 content-center absolute top-16 left-full w-full md:static text-center")
+        val=0;
+       }
+       
+})
+
 
 
 
