@@ -227,6 +227,86 @@
        }
 }
 
+.flip-card{
+     height:100%;
+     width:100%;
+     backface-visibility: hidden;
+     -webkit-backface-visibility: hidden;
+     position: absolute;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 50px;
+     text-transform: capitalize;
+}
+
+#mainflip:hover #flpho{
+     transform: rotateY(180deg);
+}
+
+#flpho{
+     transition: transform 0.8s;
+     transform-style: preserve-3d;
+}
+
+#back{
+     transform: rotateY(180deg);  
+}
+
+#mainflip-2:hover #flpho-2{
+     transform: rotateY(180deg);
+}
+
+#flpho-2{
+     transition: transform 0.8s;
+     transform-style: preserve-3d;
+}
+
+#back-2{
+     transform: rotateY(180deg);  
+}
+
+#mainflip-3:hover #flpho-3{
+     transform: rotateY(180deg);
+}
+
+#flpho-3{
+     transition: transform 0.8s;
+     transform-style: preserve-3d;
+}
+
+#back-3{
+     transform: rotateY(180deg);  
+}
+
+#mainflip-4:hover #flpho-4{
+     transform: rotateY(180deg);
+}
+
+#flpho-4{
+     transition: transform 0.8s;
+     transform-style: preserve-3d;
+}
+
+#back-4{
+     transform: rotateY(180deg);  
+}
+
+#mainflip-5:hover #flpho-5{
+     transform: rotateY(180deg);
+}
+
+#flpho-5{
+     transition: transform 0.8s;
+     transform-style: preserve-3d;
+}
+
+#back-5{
+     transform: rotateY(180deg);  
+}
+
+
 
 
   

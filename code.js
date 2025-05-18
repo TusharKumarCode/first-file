@@ -1,3 +1,9 @@
+let a=50;
+let b=20;
+let c
+ c=a+b;
+console.log(c)
+
 let lgbtn=document.getElementById("logbtn");
 let lgform=document.getElementById("loginform");
 
@@ -43,15 +49,6 @@ window.addEventListener("scroll",function(){
                 fixicon.setAttribute("class","fa-solid fa-magnifying-glass absolute left-12 text-2xl top-7");
            }
 });
-
-let vis=document.querySelector("#hovr");
-let sp=document.createElement("p");
-vis.addEventListener("mouseover",function(){
-           document.body.appendChild(sp)
-           sp.textContent="click for more";
-           sp.style.marginTop="-40px"
-});
-
 let ster=document.getElementById("hembg");
 let stre=document.querySelector("#visb");
 let val=0;
@@ -65,7 +62,8 @@ ster.addEventListener("click",function(){
         val=0;
        }
        
-})
+});
+
 
 
 
