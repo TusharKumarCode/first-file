@@ -40,7 +40,7 @@ let place=document.getElementById("search");
 let fixicon=document.getElementById('icon');
 window.addEventListener("scroll",function(){
            if(window.scrollY>250){
-                 jam.setAttribute("class","fixed bg-green-300 top-0 w-full h-20 md:fixed flex justify-center items-center");
+                 jam.setAttribute("class","fixed bg-cyan-300 top-0 w-full h-20 md:fixed flex justify-center items-center");
                  place.setAttribute('class','w-[450px] h-14 rounded-xl focus:outline-none border-2 text-2xl indent-12');
                  fixicon.setAttribute("class","fa-solid fa-magnifying-glass absolute left-[472px] text-xl top-[39%]");
            }else if(window.scrollY<250){
